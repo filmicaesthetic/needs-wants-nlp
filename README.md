@@ -17,11 +17,10 @@ words.
 
 #### Needs
 
--   “need”
--   “must”
--   “require”
+-   “need”, “needs”, “needed”, “needing”
+-   “require”, “requires”, “required”, “requiring”
 
 #### Wants
 
--   “want”
--   “wish”
+-   “want”, “wants”, “wanted”, “wanting”
+-   “wish”, “wishes”, “wished”, “wishing”

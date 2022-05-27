@@ -62,11 +62,11 @@ needs_wants <- function(dat, col, pos = "") {
                       "couldn't", "won't", "can't", "don't", "without")
   
   # word filters
-  need_filt <- c("need", "needs", "required", "needing", "must", "require")
-  want_filt <- c("want", "wants", "wanting", "wishing", "wished", "wish")
+  need_filt <- c("need", "needs", "required", "needed", "needing", "require", "requires", "requiring")
+  want_filt <- c("want", "wants", "wanting", "wanted", "wishing", "wished", "wish", "wishes")
   
-  need_filter <- "need|needs|required|needing|must|require"
-  want_filter <- "want|wants|wanting|wishing|wished|wish"
+  need_filter <- "need|needs|needed|needing|require|requires|required|requiring"
+  want_filter <- "want|wants|wanting|wanted|wishes|wishing|wished|wish"
   
   # extract sentences from text
   dat_ngram_sentence <-
